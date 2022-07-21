@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/commodity?serverTimezone=UTC
+    username: root
+    password: 123456
+server:
+  port: 9090
+jwt:
+  tokenHeader: Authorization
+  secret: yeb-secret
+  expiration: 604800
+  tokenHead: Bearen
